@@ -12,10 +12,10 @@ header {
 }
 
 header img {
-    width: 150px;  /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
-    height: auto;  /* Ini akan menjaga aspek rasio gambar */
-    display: block;  /* Menghilangkan white space di bawah gambar */
-    margin: 0 auto;  /* Jika Anda ingin gambar terpusat */
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .products {
@@ -34,30 +34,30 @@ header img {
     margin: 1rem;
     max-width: 200px;
     text-align: center;
-    width: 48%; /* Lebar setiap produk kurang lebih setengah dari kontainer, sisa 4% untuk spacing */
-    box-sizing: border-box; /* Mengatur agar padding dan border termasuk dalam lebar total */
-    margin-bottom: 20px; /* Jarak antar baris produk */
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 .product img {
-    width: 100%;  /* Atau ukuran lain sesuai keinginan Anda */
-    max-width: 100px;  /* Ukuran maksimal lebar gambar */
-    height: auto;  /* Mengatur tinggi gambar secara otomatis sesuai lebarnya */
-    display: block;  /* Agar gambar ditampilkan sebagai block, menghilangkan space di bawahnya */
-    margin: 0 auto;  /* Agar gambar terpusat dalam elemen .product */
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .product h2 {
-    margin-bottom: 3px;  /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+    margin-bottom: 3px;
 }
 
 .product h4 {
-    margin-top: 3px;    /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+    margin-top: 3px;
     margin-bottom: 10px;
 }
 
 .product p {
-    margin-top: 5px;    /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+    margin-top: 5px;
 }
 
 footer {
@@ -68,4 +68,17 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+/* Responsivitas untuk perangkat mobile */
+@media screen and (max-width: 768px) {
+    .products {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+
+    .product {
+        width: 100%; 
+    }
 }
