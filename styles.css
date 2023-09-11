@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #655b5b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header img {
+    width: 150px;  /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+    height: auto;  /* Ini akan menjaga aspek rasio gambar */
+    display: block;  /* Menghilangkan white space di bawah gambar */
+    margin: 0 auto;  /* Jika Anda ingin gambar terpusat */
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 200px;
+    text-align: center;
+    width: 48%; /* Lebar setiap produk kurang lebih setengah dari kontainer, sisa 4% untuk spacing */
+    box-sizing: border-box; /* Mengatur agar padding dan border termasuk dalam lebar total */
+    margin-bottom: 20px; /* Jarak antar baris produk */
+}
+
+.product img {
+    width: 100%;  /* Atau ukuran lain sesuai keinginan Anda */
+    max-width: 100px;  /* Ukuran maksimal lebar gambar */
+    height: auto;  /* Mengatur tinggi gambar secara otomatis sesuai lebarnya */
+    display: block;  /* Agar gambar ditampilkan sebagai block, menghilangkan space di bawahnya */
+    margin: 0 auto;  /* Agar gambar terpusat dalam elemen .product */
+}
+
+.product h2 {
+    margin-bottom: 3px;  /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+}
+
+.product h4 {
+    margin-top: 3px;    /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-top: 5px;    /* Anda dapat menyesuaikan nilai ini sesuai kebutuhan */
+}
+
+footer {
+    background-color: #655b5b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
