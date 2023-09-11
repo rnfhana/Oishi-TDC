@@ -24,8 +24,8 @@ header img {
     flex-wrap: wrap;
     align-items: start;
     padding: 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    max-width: 1200px; /* Contoh lebar maksimum */
+    margin: 0 auto; /* Ini akan secara otomatis mengatur margin kiri dan kanan */
 }
 
 .product {
@@ -36,7 +36,6 @@ header img {
     text-align: center;
     width: 48%;
     box-sizing: border-box;
-    margin-bottom: 20px;
 }
 
 .product img {
@@ -65,14 +64,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
-    bottom: 0;
+    position: relative; /* Ubah dari absolute menjadi relative */
     width: 100%;
-/* ... (kode CSS Anda sebelumnya) ... */
+}
 
 @media screen and (max-width: 768px) {
     .products {
-        margin: 0;
         padding: 0.5rem;
     }
 
@@ -86,8 +83,6 @@ footer {
     }
 
     header img {
-        width: 120px; /* Anda bisa menyesuaikan ini */
+        width: 120px;
     }
-
-    /* Jika Anda ingin mengurangi padding/margin header atau footer, Anda bisa melakukannya di sini */
 }
