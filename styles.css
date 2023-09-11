@@ -91,9 +91,5 @@ footer {
         width: 120px; /* Anda bisa menyesuaikan ini */
     }
 
-    footer {
-        position: relative;
-    }
-
     /* Jika Anda ingin mengurangi padding/margin header atau footer, Anda bisa melakukannya di sini */
 }
