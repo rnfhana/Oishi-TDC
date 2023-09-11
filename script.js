@@ -6,7 +6,7 @@ function addToCart(productName, price) {
 
 function openWhatsApp1() {
     const phoneNumber = '6289677199199'; // Ganti dengan nomor WhatsApp tujuan
-    const message = 'Saya ingin memesan Nasi Kepal Ayam Teriyaki'; // Pesan otomatis
+    const message = 'Saya ingin memesan Nasi Kepal Ayam Teriyaki\nNama:\nJurusan-Kampus:\nJumlah pesanan:\nUntuk tgl-jam:'; // Pesan otomatis
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
@@ -16,7 +16,7 @@ function openWhatsApp1() {
 
 function openWhatsApp2() {
     const phoneNumber = '6289677199199'; // Ganti dengan nomor WhatsApp tujuan
-    const message = 'Saya ingin memesan Nasi Kepal Ayam Lada Hitam'; // Pesan otomatis
+    const message = 'Saya ingin memesan Nasi Kepal Ayam Lada Hitam\nNama:\nJurusan-Kampus:\nJumlah pesanan:\nUntuk tgl-jam:'; // Pesan otomatis
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
