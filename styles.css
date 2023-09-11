@@ -68,17 +68,26 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+/* ... (kode CSS Anda sebelumnya) ... */
 
-/* Responsivitas untuk perangkat mobile */
 @media screen and (max-width: 768px) {
     .products {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        padding: 1rem;
+        margin: 0;
+        padding: 0.5rem;
     }
 
     .product {
         width: 100%; 
+        margin: 0.5rem 0;
     }
+
+    .product img {
+        max-width: 150px;
+    }
+
+    header img {
+        width: 120px; /* Anda bisa menyesuaikan ini */
+    }
+
+    /* Jika Anda ingin mengurangi padding/margin header atau footer, Anda bisa melakukannya di sini */
 }
